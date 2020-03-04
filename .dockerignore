@@ -1,0 +1,8 @@
+.vscode
+.idea
+logs/*log
+*.log
+main
+.env
+build
+.air.conf

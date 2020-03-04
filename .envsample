@@ -1,0 +1,20 @@
+# Mysql DB
+DB_DRIVER=mysql
+DB_USER=root
+DB_PASSWORD=root
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=blog
+
+
+#App
+APP_NAME=ghost_writer
+PORT=7000
+LOG_FOLDER=/var/log/
+ENV=dev
+
+# Redis
+REDIS_HOST=0.0.0.0:6379
+REDIS_PASSWORD=
+REDIS_DB=0
+MAX_REDIS_WORKERS=10

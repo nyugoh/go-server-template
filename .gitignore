@@ -1,0 +1,10 @@
+logs/*.log
+go.sum
+.env
+.idea
+tmp/
+.vscode
+logs/*log
+*.log
+main
+build
