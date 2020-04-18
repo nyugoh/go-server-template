@@ -7,6 +7,7 @@ Template for basic Golang server using MUX router
 - [x] Hot reload with [air](https://github.com/cosmtrek/air)
 - [x] Mysql Database
 - [x] Docker
+- [x] Send email
 - [ ] Redis
 - [ ] Rabbit MQ
 - [ ] Metrics monitoring endpoint for [Prometheus](https://prometheus.io/)
@@ -17,3 +18,11 @@ Template for basic Golang server using MUX router
 3. Run `go mod download`
 4. Copy `.env.example` to `.env` and configure with your details\
 5. Install `air` for live reload. Install from [here](https://github.com/cosmtrek/air).
+
+## Sample routes
+
+| Endpoint | Action  |
+|:---------|:-------|
+| ``/``         | Home page with html|
+| ``/api/v1``      | Responds with json format|
+
