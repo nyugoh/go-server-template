@@ -9,7 +9,6 @@ import (
 	"github.com/joho/godotenv"
 	"log"
 	"os"
-	"strconv"
 	"strings"
 )
 
@@ -65,7 +64,7 @@ func init() {
 	}
 	Log("Gin server is running in", gin.Mode(), "mode")
 
-	// Connect to DB
+	/*// Connect to DB
 	db, err := DbConnect()
 	if err != nil {
 		LogError("unable to connect to DB:", err.Error())
@@ -78,7 +77,7 @@ func init() {
 
 	if ok, err := strconv.ParseBool(os.Getenv("INIT_DB")); ok && err == nil {
 		SeedDB(app.DB) // Insert initial data required by the app to start
-	}
+	}*/
 
 	app.LoadApiInitialData()
 

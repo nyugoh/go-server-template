@@ -1,8 +1,7 @@
-.vscode
+.git
+TODO
+samples.txt
+.gitignore
+logs
 .idea
-logs/*log
-*.log
-main
-.env
-build
-.air.conf
+tmp

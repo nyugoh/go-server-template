@@ -1,0 +1,9 @@
+version: "3"
+services:
+  app:
+    restart: always
+    build: .
+    volumes:
+      - ./logs:${LOG_FOLDER}
+    env_file:
+      - .env
